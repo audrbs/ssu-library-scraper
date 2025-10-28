@@ -5,7 +5,7 @@ name: Scrape Library Seats
 on:
   # 1. 30분마다 자동으로 실행
   schedule:
-    - cron: '*/30 * * * *'  # 30분 간격 (15분은 '*/15')
+    - cron: '*/15 * * * *'  # 30분 간격 (15분은 '*/15')
   # 2. GitHub 페이지에서 수동으로 실행할 수도 있게 함
   workflow_dispatch:
 

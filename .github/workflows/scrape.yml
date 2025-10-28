@@ -9,6 +9,10 @@ on:
   # 2. GitHub 페이지에서 수동으로 실행할 수도 있게 함
   workflow_dispatch:
 
+# 쓰기 권한 추가  
+permissions:
+  contents: write
+  
 # 실행할 작업(Job) 정의
 jobs:
   scrape-data:
